@@ -4,11 +4,9 @@ group:
         dest: .claude/agents/critique.md
     repos: |
       pistachiomatt/coco
-      pistachiomatt/soulcraft
 
   - files:
       - source: skills/prompt-writing/SKILL.md
         dest: .claude/skills/prompt-writing/SKILL.md
     repos: |
-      pistachiomatt/coco
       pistachiomatt/soulcraft

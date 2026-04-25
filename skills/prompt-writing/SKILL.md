@@ -27,9 +27,11 @@ Consider every edit cohesively. Once editing, test: read your edit as someone se
 
 You may want to include concrete examples in a prompt because they feel helpful. This may backfire, as specific examples anchor to that one scenario instead of teaching the transferable pattern. First, try without examples. When testing reveals a need to ground a prompt, use the shortest example that demonstrates the shape of the idea, not its content.
 
+When you do ground a principle, framing matters. A bare parenthetical reads as a definition, collapsing the general to the specific. Prefix with "e.g." and it reads as one instance of a broader pattern.
+
 ## Economy
 
-System prompts are read on every turn. Every sentence has a recurring cost — in tokens, in attention, in the chance of conflicting with something else. The goal is the fewest words that achieve the steering.
+System prompts are read on every turn. Every sentence has a recurring cost — in tokens, in attention, in the chance of conflicting with something else. Avoid tautological reinforcement.
 
 ## The Mechanical Layer
 
